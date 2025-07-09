@@ -1,7 +1,7 @@
 
-# GPT-Style AI Chatbot Backend (FastAPI + MongoDB Atlas + LangChain + RAG)
+# AI Chatbot Backend (FastAPI + MongoDB Atlas + LangChain + RAG)
 
-This is the **backend** for a GPT-style AI chatbot, built using **FastAPI**, **MongoDB Atlas**, **LangChain**, and **OpenRouter**. It supports:
+This is the **backend** for an AI chatbot, built using **FastAPI**, **MongoDB Atlas**, **LangChain**, and **OpenRouter**. It supports:
 
 - 🔐 Secure user authentication (JWT)
 - 💬 Persistent chat sessions (MongoDB Atlas)
