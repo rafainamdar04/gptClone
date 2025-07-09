@@ -1,10 +1,10 @@
 
-# GPT-Style AI Chatbot Backend (FastAPI + MongoDB + LangChain + RAG)
+# GPT-Style AI Chatbot Backend (FastAPI + MongoDB Atlas + LangChain + RAG)
 
-This is the **backend** for a GPT-style AI chatbot, built using **FastAPI**, **MongoDB**, **LangChain**, and **OpenRouter**. It supports:
+This is the **backend** for a GPT-style AI chatbot, built using **FastAPI**, **MongoDB Atlas**, **LangChain**, and **OpenRouter**. It supports:
 
 - 🔐 Secure user authentication (JWT)
-- 💬 Persistent chat sessions with memory
+- 💬 Persistent chat sessions (MongoDB Atlas)
 - 📄 PDF upload and RAG-based question answering
 - 🧠 AI completions powered by OpenRouter (Mistral-7B)
 - ⚡ Local vector database using Chroma and SentenceTransformers
@@ -88,14 +88,10 @@ uvicorn main:app --reload
 ## 🛠 Built With
 
 * [FastAPI](https://fastapi.tiangolo.com/) — API framework
-* [MongoDB](https://www.mongodb.com/) — database for users and chats
+* [MongoDB Atlas](https://www.mongodb.com/try/download/community) — database for users and chats
 * [LangChain](https://www.langchain.com/) — RAG pipeline
 * [Chroma](https://www.trychroma.com/) — vector store
 * [SentenceTransformers](https://www.sbert.net/) — MiniLM embeddings
 * [OpenRouter](https://openrouter.ai/) — LLM completions (Mistral-7B)
 
 ---
-
-## 🙌 Author
-
-Built by [Rafa Inamdar]
